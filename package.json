@@ -1,19 +1,20 @@
 {
   "name": "never-not-writing",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ZachSelindh/never-not-writing.git"
+  "dependencies": {
+    "next": "12.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
-  "author": "zachSelindh",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ZachSelindh/never-not-writing/issues"
-  },
-  "homepage": "https://github.com/ZachSelindh/never-not-writing#readme"
+  "devDependencies": {
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.0"
+  }
 }
