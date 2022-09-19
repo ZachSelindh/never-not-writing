@@ -2,7 +2,9 @@ import React from 'react';
 import { useRouter } from 'next/router';
 
 const NotesDetailPage = () => {
-    const router = useRouter();
+    const { query } = useRouter();
+
+    console.log('query', query);
 
     return (
         <div>
