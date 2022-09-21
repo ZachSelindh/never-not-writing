@@ -2,8 +2,8 @@ import React from 'react';
 import Head from 'next/head';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
+import Layout from '../components/Layout';
 import styles from '../styles/Home.module.css';
-import Layout from '../components/Layout/index';
 
 const darkTheme = createTheme({
     palette: {
